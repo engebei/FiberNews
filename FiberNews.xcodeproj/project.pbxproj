@@ -1,0 +1,712 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C9BCD4EC1C96BAE200523B0E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BCD4EB1C96BAE200523B0E /* AppDelegate.swift */; };
+		C9BCD4EE1C96BAE200523B0E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BCD4ED1C96BAE200523B0E /* ViewController.swift */; };
+		C9BCD4F11C96BAE200523B0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9BCD4EF1C96BAE200523B0E /* Main.storyboard */; };
+		C9BCD4F31C96BAE200523B0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9BCD4F21C96BAE200523B0E /* Assets.xcassets */; };
+		C9BCD4F61C96BAE200523B0E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9BCD4F41C96BAE200523B0E /* LaunchScreen.storyboard */; };
+		C9BCD5011C96BAE200523B0E /* FiberNewsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BCD5001C96BAE200523B0E /* FiberNewsTests.swift */; };
+		C9BCD50C1C96BAE200523B0E /* FiberNewsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BCD50B1C96BAE200523B0E /* FiberNewsUITests.swift */; };
+		C9BCD5331C96D04A00523B0E /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BCD5321C96D04A00523B0E /* TabBarViewController.swift */; };
+		C9BCD5351C96D07B00523B0E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BCD5341C96D07B00523B0E /* HomeViewController.swift */; };
+		C9BCD5371C96D08A00523B0E /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BCD5361C96D08A00523B0E /* MapViewController.swift */; };
+		C9BCD53B1C96D0A500523B0E /* MineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BCD53A1C96D0A500523B0E /* MineViewController.swift */; };
+		C9BCD53D1C979EE700523B0E /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BCD53C1C979EE700523B0E /* MessageViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C9BCD4FD1C96BAE200523B0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9BCD4E01C96BAE200523B0E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9BCD4E71C96BAE200523B0E;
+			remoteInfo = FiberNews;
+		};
+		C9BCD5081C96BAE200523B0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9BCD4E01C96BAE200523B0E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9BCD4E71C96BAE200523B0E;
+			remoteInfo = FiberNews;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C9BCD4E81C96BAE200523B0E /* FiberNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FiberNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9BCD4EB1C96BAE200523B0E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C9BCD4ED1C96BAE200523B0E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C9BCD4F01C96BAE200523B0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C9BCD4F21C96BAE200523B0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C9BCD4F51C96BAE200523B0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C9BCD4F71C96BAE200523B0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9BCD4FC1C96BAE200523B0E /* FiberNewsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FiberNewsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9BCD5001C96BAE200523B0E /* FiberNewsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiberNewsTests.swift; sourceTree = "<group>"; };
+		C9BCD5021C96BAE200523B0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9BCD5071C96BAE200523B0E /* FiberNewsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FiberNewsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9BCD50B1C96BAE200523B0E /* FiberNewsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiberNewsUITests.swift; sourceTree = "<group>"; };
+		C9BCD50D1C96BAE200523B0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9BCD5321C96D04A00523B0E /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		C9BCD5341C96D07B00523B0E /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		C9BCD5361C96D08A00523B0E /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		C9BCD53A1C96D0A500523B0E /* MineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MineViewController.swift; sourceTree = "<group>"; };
+		C9BCD53C1C979EE700523B0E /* MessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C9BCD4E51C96BAE200523B0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9BCD4F91C96BAE200523B0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9BCD5041C96BAE200523B0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C9BCD4DF1C96BAE200523B0E = {
+			isa = PBXGroup;
+			children = (
+				C9BCD5191C96BBE000523B0E /* Classes */,
+				C9BCD4EA1C96BAE200523B0E /* FiberNews */,
+				C9BCD4FF1C96BAE200523B0E /* FiberNewsTests */,
+				C9BCD50A1C96BAE200523B0E /* FiberNewsUITests */,
+				C9BCD4E91C96BAE200523B0E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C9BCD4E91C96BAE200523B0E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9BCD4E81C96BAE200523B0E /* FiberNews.app */,
+				C9BCD4FC1C96BAE200523B0E /* FiberNewsTests.xctest */,
+				C9BCD5071C96BAE200523B0E /* FiberNewsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9BCD4EA1C96BAE200523B0E /* FiberNews */ = {
+			isa = PBXGroup;
+			children = (
+				C9BCD4EB1C96BAE200523B0E /* AppDelegate.swift */,
+				C9BCD4ED1C96BAE200523B0E /* ViewController.swift */,
+				C9BCD4EF1C96BAE200523B0E /* Main.storyboard */,
+				C9BCD4F21C96BAE200523B0E /* Assets.xcassets */,
+				C9BCD4F41C96BAE200523B0E /* LaunchScreen.storyboard */,
+				C9BCD4F71C96BAE200523B0E /* Info.plist */,
+			);
+			path = FiberNews;
+			sourceTree = "<group>";
+		};
+		C9BCD4FF1C96BAE200523B0E /* FiberNewsTests */ = {
+			isa = PBXGroup;
+			children = (
+				C9BCD5001C96BAE200523B0E /* FiberNewsTests.swift */,
+				C9BCD5021C96BAE200523B0E /* Info.plist */,
+			);
+			path = FiberNewsTests;
+			sourceTree = "<group>";
+		};
+		C9BCD50A1C96BAE200523B0E /* FiberNewsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C9BCD50B1C96BAE200523B0E /* FiberNewsUITests.swift */,
+				C9BCD50D1C96BAE200523B0E /* Info.plist */,
+			);
+			path = FiberNewsUITests;
+			sourceTree = "<group>";
+		};
+		C9BCD5191C96BBE000523B0E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C9BCD51E1C96BBE000523B0E /* Tools */,
+				C9BCD51A1C96BBE000523B0E /* Controllers */,
+				C9BCD51F1C96BBE000523B0E /* Views */,
+				C9BCD51B1C96BBE000523B0E /* Model */,
+				C9BCD51C1C96BBE000523B0E /* Repository */,
+				C9BCD51D1C96BBE000523B0E /* Thirds */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		C9BCD51A1C96BBE000523B0E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C9BCD52F1C96CFC300523B0E /* Other */,
+				C9BCD52A1C96CF0100523B0E /* Home */,
+				C9BCD52B1C96CF0100523B0E /* Login */,
+				C9BCD52C1C96CF0100523B0E /* Map */,
+				C9BCD52D1C96CF0100523B0E /* Message */,
+				C9BCD52E1C96CF0100523B0E /* Mine */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C9BCD51B1C96BBE000523B0E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C9BCD5201C96CEC400523B0E /* Home */,
+				C9BCD5211C96CEC400523B0E /* Login */,
+				C9BCD5221C96CEC400523B0E /* Map */,
+				C9BCD5231C96CEC400523B0E /* Massage */,
+				C9BCD5241C96CEC400523B0E /* Mine */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C9BCD51C1C96BBE000523B0E /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		C9BCD51D1C96BBE000523B0E /* Thirds */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Thirds;
+			sourceTree = "<group>";
+		};
+		C9BCD51E1C96BBE000523B0E /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		C9BCD51F1C96BBE000523B0E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C9BCD5251C96CEEE00523B0E /* Home */,
+				C9BCD5261C96CEEE00523B0E /* Login */,
+				C9BCD5271C96CEEE00523B0E /* Map */,
+				C9BCD5281C96CEEE00523B0E /* Massage */,
+				C9BCD5291C96CEEE00523B0E /* Mine */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C9BCD5201C96CEC400523B0E /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		C9BCD5211C96CEC400523B0E /* Login */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		C9BCD5221C96CEC400523B0E /* Map */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		C9BCD5231C96CEC400523B0E /* Massage */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Massage;
+			sourceTree = "<group>";
+		};
+		C9BCD5241C96CEC400523B0E /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		C9BCD5251C96CEEE00523B0E /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		C9BCD5261C96CEEE00523B0E /* Login */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		C9BCD5271C96CEEE00523B0E /* Map */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		C9BCD5281C96CEEE00523B0E /* Massage */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Massage;
+			sourceTree = "<group>";
+		};
+		C9BCD5291C96CEEE00523B0E /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		C9BCD52A1C96CF0100523B0E /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				C9BCD5341C96D07B00523B0E /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		C9BCD52B1C96CF0100523B0E /* Login */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		C9BCD52C1C96CF0100523B0E /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				C9BCD5361C96D08A00523B0E /* MapViewController.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		C9BCD52D1C96CF0100523B0E /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				C9BCD53C1C979EE700523B0E /* MessageViewController.swift */,
+			);
+			name = Message;
+			path = Massage;
+			sourceTree = "<group>";
+		};
+		C9BCD52E1C96CF0100523B0E /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				C9BCD53A1C96D0A500523B0E /* MineViewController.swift */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		C9BCD52F1C96CFC300523B0E /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				C9BCD5321C96D04A00523B0E /* TabBarViewController.swift */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C9BCD4E71C96BAE200523B0E /* FiberNews */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9BCD5101C96BAE200523B0E /* Build configuration list for PBXNativeTarget "FiberNews" */;
+			buildPhases = (
+				C9BCD4E41C96BAE200523B0E /* Sources */,
+				C9BCD4E51C96BAE200523B0E /* Frameworks */,
+				C9BCD4E61C96BAE200523B0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FiberNews;
+			productName = FiberNews;
+			productReference = C9BCD4E81C96BAE200523B0E /* FiberNews.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C9BCD4FB1C96BAE200523B0E /* FiberNewsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9BCD5131C96BAE200523B0E /* Build configuration list for PBXNativeTarget "FiberNewsTests" */;
+			buildPhases = (
+				C9BCD4F81C96BAE200523B0E /* Sources */,
+				C9BCD4F91C96BAE200523B0E /* Frameworks */,
+				C9BCD4FA1C96BAE200523B0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9BCD4FE1C96BAE200523B0E /* PBXTargetDependency */,
+			);
+			name = FiberNewsTests;
+			productName = FiberNewsTests;
+			productReference = C9BCD4FC1C96BAE200523B0E /* FiberNewsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C9BCD5061C96BAE200523B0E /* FiberNewsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9BCD5161C96BAE200523B0E /* Build configuration list for PBXNativeTarget "FiberNewsUITests" */;
+			buildPhases = (
+				C9BCD5031C96BAE200523B0E /* Sources */,
+				C9BCD5041C96BAE200523B0E /* Frameworks */,
+				C9BCD5051C96BAE200523B0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9BCD5091C96BAE200523B0E /* PBXTargetDependency */,
+			);
+			name = FiberNewsUITests;
+			productName = FiberNewsUITests;
+			productReference = C9BCD5071C96BAE200523B0E /* FiberNewsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C9BCD4E01C96BAE200523B0E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = zhubo;
+				TargetAttributes = {
+					C9BCD4E71C96BAE200523B0E = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					C9BCD4FB1C96BAE200523B0E = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = C9BCD4E71C96BAE200523B0E;
+					};
+					C9BCD5061C96BAE200523B0E = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = C9BCD4E71C96BAE200523B0E;
+					};
+				};
+			};
+			buildConfigurationList = C9BCD4E31C96BAE200523B0E /* Build configuration list for PBXProject "FiberNews" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C9BCD4DF1C96BAE200523B0E;
+			productRefGroup = C9BCD4E91C96BAE200523B0E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9BCD4E71C96BAE200523B0E /* FiberNews */,
+				C9BCD4FB1C96BAE200523B0E /* FiberNewsTests */,
+				C9BCD5061C96BAE200523B0E /* FiberNewsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C9BCD4E61C96BAE200523B0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9BCD4F61C96BAE200523B0E /* LaunchScreen.storyboard in Resources */,
+				C9BCD4F31C96BAE200523B0E /* Assets.xcassets in Resources */,
+				C9BCD4F11C96BAE200523B0E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9BCD4FA1C96BAE200523B0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9BCD5051C96BAE200523B0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C9BCD4E41C96BAE200523B0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9BCD4EE1C96BAE200523B0E /* ViewController.swift in Sources */,
+				C9BCD5331C96D04A00523B0E /* TabBarViewController.swift in Sources */,
+				C9BCD4EC1C96BAE200523B0E /* AppDelegate.swift in Sources */,
+				C9BCD53B1C96D0A500523B0E /* MineViewController.swift in Sources */,
+				C9BCD5371C96D08A00523B0E /* MapViewController.swift in Sources */,
+				C9BCD5351C96D07B00523B0E /* HomeViewController.swift in Sources */,
+				C9BCD53D1C979EE700523B0E /* MessageViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9BCD4F81C96BAE200523B0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9BCD5011C96BAE200523B0E /* FiberNewsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9BCD5031C96BAE200523B0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9BCD50C1C96BAE200523B0E /* FiberNewsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C9BCD4FE1C96BAE200523B0E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9BCD4E71C96BAE200523B0E /* FiberNews */;
+			targetProxy = C9BCD4FD1C96BAE200523B0E /* PBXContainerItemProxy */;
+		};
+		C9BCD5091C96BAE200523B0E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9BCD4E71C96BAE200523B0E /* FiberNews */;
+			targetProxy = C9BCD5081C96BAE200523B0E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C9BCD4EF1C96BAE200523B0E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9BCD4F01C96BAE200523B0E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C9BCD4F41C96BAE200523B0E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9BCD4F51C96BAE200523B0E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C9BCD50E1C96BAE200523B0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C9BCD50F1C96BAE200523B0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C9BCD5111C96BAE200523B0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FiberNews/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhubo.FiberNews;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C9BCD5121C96BAE200523B0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FiberNews/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhubo.FiberNews;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C9BCD5141C96BAE200523B0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FiberNewsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhubo.FiberNewsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FiberNews.app/FiberNews";
+			};
+			name = Debug;
+		};
+		C9BCD5151C96BAE200523B0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FiberNewsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhubo.FiberNewsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FiberNews.app/FiberNews";
+			};
+			name = Release;
+		};
+		C9BCD5171C96BAE200523B0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FiberNewsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhubo.FiberNewsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FiberNews;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C9BCD5181C96BAE200523B0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FiberNewsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhubo.FiberNewsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FiberNews;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C9BCD4E31C96BAE200523B0E /* Build configuration list for PBXProject "FiberNews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9BCD50E1C96BAE200523B0E /* Debug */,
+				C9BCD50F1C96BAE200523B0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9BCD5101C96BAE200523B0E /* Build configuration list for PBXNativeTarget "FiberNews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9BCD5111C96BAE200523B0E /* Debug */,
+				C9BCD5121C96BAE200523B0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C9BCD5131C96BAE200523B0E /* Build configuration list for PBXNativeTarget "FiberNewsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9BCD5141C96BAE200523B0E /* Debug */,
+				C9BCD5151C96BAE200523B0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C9BCD5161C96BAE200523B0E /* Build configuration list for PBXNativeTarget "FiberNewsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9BCD5171C96BAE200523B0E /* Debug */,
+				C9BCD5181C96BAE200523B0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C9BCD4E01C96BAE200523B0E /* Project object */;
+}
