@@ -7,7 +7,8 @@
 //
 
 import UIKit
-
+import SwiftHEXColors
+import SwiftHEXColors
 
 
 class TabBarViewController: UITabBarController {
@@ -33,6 +34,7 @@ class TabBarViewController: UITabBarController {
         fourthVC.tabBarItem = item4
         
         self.viewControllers = [firstVC,secondVC,thirdVC,fourthVC]
+        UITabBar.appearance().tintColor = UIColor(hexString: "3d9ccc")
     }
 
     override func didReceiveMemoryWarning() {

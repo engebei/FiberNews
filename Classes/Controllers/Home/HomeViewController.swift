@@ -16,6 +16,10 @@ class HomeViewController: UIViewController {
         self.title = "首页"
         self.view.backgroundColor = UIColor.whiteColor()
     }
+    
+//    func <#name#>(<#parameters#>) -> <#return type#> {
+//        <#function body#>
+//    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		454D7017054A56A6DF91E818 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E112A03A977F15381B36DA43 /* Pods.framework */; };
+		C996459B1CAD4A040058654F /* JSCycleScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C996459A1CAD4A040058654F /* JSCycleScrollView.swift */; };
 		C9BCD4EC1C96BAE200523B0E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BCD4EB1C96BAE200523B0E /* AppDelegate.swift */; };
 		C9BCD4EE1C96BAE200523B0E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BCD4ED1C96BAE200523B0E /* ViewController.swift */; };
 		C9BCD4F11C96BAE200523B0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9BCD4EF1C96BAE200523B0E /* Main.storyboard */; };
@@ -39,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7BEAC5B174C9D8262BE36A29 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		C996459A1CAD4A040058654F /* JSCycleScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSCycleScrollView.swift; sourceTree = "<group>"; };
 		C9BCD4E81C96BAE200523B0E /* FiberNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FiberNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9BCD4EB1C96BAE200523B0E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C9BCD4ED1C96BAE200523B0E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +61,8 @@
 		C9BCD5361C96D08A00523B0E /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		C9BCD53A1C96D0A500523B0E /* MineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MineViewController.swift; sourceTree = "<group>"; };
 		C9BCD53C1C979EE700523B0E /* MessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+		CFF7BC77FC35174675DDE31B /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		E112A03A977F15381B36DA43 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				454D7017054A56A6DF91E818 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +91,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		083E94D377F90B70B375BC26 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CFF7BC77FC35174675DDE31B /* Pods.debug.xcconfig */,
+				7BEAC5B174C9D8262BE36A29 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		C9BCD4DF1C96BAE200523B0E = {
 			isa = PBXGroup;
 			children = (
@@ -92,6 +108,8 @@
 				C9BCD4FF1C96BAE200523B0E /* FiberNewsTests */,
 				C9BCD50A1C96BAE200523B0E /* FiberNewsUITests */,
 				C9BCD4E91C96BAE200523B0E /* Products */,
+				083E94D377F90B70B375BC26 /* Pods */,
+				DDC84B883C69499684F70415 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -245,6 +263,7 @@
 		C9BCD5251C96CEEE00523B0E /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				C996459A1CAD4A040058654F /* JSCycleScrollView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -325,6 +344,14 @@
 			path = Other;
 			sourceTree = "<group>";
 		};
+		DDC84B883C69499684F70415 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E112A03A977F15381B36DA43 /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -332,9 +359,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C9BCD5101C96BAE200523B0E /* Build configuration list for PBXNativeTarget "FiberNews" */;
 			buildPhases = (
+				645FD467B9331C828C1DC2E7 /* Check Pods Manifest.lock */,
 				C9BCD4E41C96BAE200523B0E /* Sources */,
 				C9BCD4E51C96BAE200523B0E /* Frameworks */,
 				C9BCD4E61C96BAE200523B0E /* Resources */,
+				7B65769C5ECCFC66DE524722 /* Embed Pods Frameworks */,
+				8377A7F354BBB5A7C96FE5B7 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -451,12 +481,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		645FD467B9331C828C1DC2E7 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7B65769C5ECCFC66DE524722 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8377A7F354BBB5A7C96FE5B7 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C9BCD4E41C96BAE200523B0E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				C9BCD4EE1C96BAE200523B0E /* ViewController.swift in Sources */,
+				C996459B1CAD4A040058654F /* JSCycleScrollView.swift in Sources */,
 				C9BCD5331C96D04A00523B0E /* TabBarViewController.swift in Sources */,
 				C9BCD4EC1C96BAE200523B0E /* AppDelegate.swift in Sources */,
 				C9BCD53B1C96D0A500523B0E /* MineViewController.swift in Sources */,
@@ -600,6 +679,7 @@
 		};
 		C9BCD5111C96BAE200523B0E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFF7BC77FC35174675DDE31B /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FiberNews/Info.plist;
@@ -612,6 +692,7 @@
 		};
 		C9BCD5121C96BAE200523B0E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BEAC5B174C9D8262BE36A29 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FiberNews/Info.plist;
@@ -689,6 +770,7 @@
 				C9BCD5121C96BAE200523B0E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C9BCD5131C96BAE200523B0E /* Build configuration list for PBXNativeTarget "FiberNewsTests" */ = {
 			isa = XCConfigurationList;
@@ -697,6 +779,7 @@
 				C9BCD5151C96BAE200523B0E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C9BCD5161C96BAE200523B0E /* Build configuration list for PBXNativeTarget "FiberNewsUITests" */ = {
 			isa = XCConfigurationList;
@@ -705,6 +788,7 @@
 				C9BCD5181C96BAE200523B0E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
