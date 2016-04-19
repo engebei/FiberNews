@@ -8,7 +8,6 @@
 
 import UIKit
 import SwiftHEXColors
-import SwiftHEXColors
 
 
 class TabBarViewController: UITabBarController {
